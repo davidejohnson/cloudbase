@@ -1,0 +1,306 @@
+
+/* 
+    Created on : 18-Jun-2015, 19:33:13
+    Author     : davidr
+*/
+
+@font-face {
+    font-family: 'Lato Light';
+    src: url('fonts/lato-light-webfont.eot');
+    src: url('fonts/lato-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-light-webfont.woff2') format('woff2'),
+         url('fonts/lato-light-webfont.woff') format('woff'),
+         url('fonts/lato-light-webfont.ttf') format('truetype'),
+         url('fonts/lato-light-webfont.svg#latolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('fonts/lato-regular-webfont.eot');
+    src: url('fonts/lato-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-regular-webfont.woff2') format('woff2'),
+         url('fonts/lato-regular-webfont.woff') format('woff'),
+         url('fonts/lato-regular-webfont.ttf') format('truetype'),
+         url('fonts/lato-regular-webfont.svg#latoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato Semi Bold';
+    src: url('fonts/lato-semibold-webfont.eot');
+    src: url('fonts/lato-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lato-semibold-webfont.woff2') format('woff2'),
+         url('fonts/lato-semibold-webfont.woff') format('woff'),
+         url('fonts/lato-semibold-webfont.ttf') format('truetype'),
+         url('fonts/lato-semibold-webfont.svg#latosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Lato Regular', sans-serif;
+    background-color: #f9f9f9;
+}
+
+body.login {
+    overflow:hidden;
+}
+
+/* Login page */
+*:focus, *:active {
+    outline: none !important;
+}
+*::-moz-focus-inner {
+    border: 0 !important;
+}
+.btn-apollonius {
+    background:#212733;
+    padding: 6px 13px;
+    border-radius: 3px;
+    border-width: 0;
+    border-color: #10101C;
+    border-bottom-width: 2px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+.btn-apollonius :hover, .btn-apollonius :focus {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background:#8C2321;
+}
+.btn-primary:hover {
+    background:#8C2321;
+}
+.form-control {
+    box-shadow: none;
+    -webkit-appearance: none;
+}
+.message-container {
+    margin-top: 15px;
+}
+.alert {
+    margin-bottom: 0px;
+}
+.box-container {
+    border-radius: 4px;
+    width:468px;
+    float:left;
+    position:absolute;
+    left: 50%;	
+    margin: 50px 0 0 -234px;	
+}
+.box-header {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    padding: 20px;
+}
+.box-login > .box-header {
+    background-color: #8C2321;
+    border-color:  #1E4877;
+}
+.box-banner > .box-header {
+    background-color: #cf1f1f;
+    border-color: #b11b1b;
+}
+.box-header > h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.box-header > h2 {
+    font-family: 'Lato Light', sans-serif;
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.box-body {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #DDD;
+    border-top: none;
+    height:auto;
+    overflow:hidden;
+}
+.box-body > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checkbox {
+    margin: 7px 0px;
+    padding-left:20px;
+}
+.checkbox > .remember-me {
+    padding:0;
+}
+@media (min-width: 768px) {
+    .col-sm-fix {
+        margin: 0 auto;
+        width: 468px;
+        float: none;
+    }
+}
+
+/* Main Navigation */
+.container-inner {
+    margin-top: 20px;
+}
+.navbar-right {
+    margin:0 !important;
+}
+.navbar-apollonius {
+    background-color: #8C2321;
+    border-color: #333;
+    margin-bottom: 0;
+}
+.navbar-apollonius  a {
+    color: #EEE;
+}
+.navbar-apollonius a:hover,
+.navbar-apollonius a:focus {
+    color: #FFF;
+}
+.navbar-apollonius .navbar-toggle-apollonius {
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+}
+.navbar-apollonius .navbar-toggle-apollonius:hover, .navbar-apollonius .navbar-toggle-apollonius:focus {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar-apollonius .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+.navbar-apollonius .navbar-brand {
+    color: #eee;
+}
+.navbar-apollonius .navbar-brand span {
+    font-family: 'Lato Light';
+    font-size: 15px;
+    margin-left: 4px;
+}
+.navbar-apollonius .navbar-brand:hover,
+.navbar-apollonius .navbar-brand:focus {
+    color: #FFF;
+}
+.navbar-apollonius .navbar-collapse, .navbar-apollonius .navbar-form {
+    border-color: #195AA8;
+}
+.navbar-apollonius .navbar-nav > .active > a,
+.navbar-apollonius .navbar-nav > .active > a:hover,
+.navbar-apollonius .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #195AA8;
+}
+.navbar-apollonius .navbar-nav > li > a {
+    color: #EEE;
+}
+.navbar-apollonius .navbar-nav > li > a:hover,
+.navbar-apollonius .navbar-nav > li > a:focus {
+    color: #FFF;
+}
+.navbar-apollonius .navbar-nav > li > a > i {
+    margin-right: 5px;
+}
+.navbar-apollonius .navbar-text {
+    color: #FFF;
+}
+
+/* Secondary Navigation */
+.apollonius-sidebar {
+    background-color: #23272D;
+    height: calc(100% - 51px);
+    position: fixed;
+    width: 260px;
+    overflow-y: auto;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    z-index: 100;
+    top: 51px;
+}
+.aside-nav {
+    margin-bottom: 0px;
+    padding-left: 0px;
+    list-style: none outside none;
+}
+.aside-nav > li {
+    position: relative;
+    display: block;
+}
+.aside-nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    transition: color 0.4s ease 0s, border-color 0.2s ease 0s;
+}
+.aside-nav > li > a, .aside-nav li > a:focus {
+    background-color: #23272D;
+    color: #999;
+    border-left: 4px solid transparent;
+    text-decoration: none;
+}
+.aside-nav > li > ul > li > a, .aside-nav > li > ul > li > a:focus {
+    background-color: #2A2E36;
+}
+.aside-nav > li > a:hover {
+    border-left-color: #C89431;
+    color: #EEE;
+    text-decoration: none;
+}
+.aside-nav > li.active > a, .aside-nav li.active > a:hover {
+    border-left-color: #C89431;
+    background-color: #181B1F;
+    color: #EEE;
+}
+.aside-nav > li.selected > a, .aside-nav li.selected > a:hover {
+    border-left-color: #EEE;
+    color: #EEE;
+}
+.aside-nav > li > ul > li.selected > a, .aside-nav > li > ul > li.selected > a:hover {
+    border-left-color: #EEE;
+    color: #EEE;
+    background-color: #2A2E36;
+}
+.aside-nav > li > a > i {
+    margin-right: 15px;
+}
+.aside-nav > li.submenu {
+    display: none;
+}
+.aside-nav > li > ul > li > a {
+    padding-left: 48px;
+}
+.aside-arrow {
+    float: right;
+    margin-right: 6px;
+}
+.aside-arrow > i {
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+}
+.aside-arrow > i.rotated {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+.search-aside, .power-aside, .theme-update-aside {
+    margin: 10px 15px;
+}
+.aside-close {
+    width: 60px;
+}
